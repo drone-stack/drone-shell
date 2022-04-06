@@ -1,0 +1,9 @@
+kind: pipeline
+name: shell
+
+steps:
+- name: test
+  image: ysicing/drone-plugin-shell
+  commands:
+  - pwd
+  - curl -I https://ysicing.me

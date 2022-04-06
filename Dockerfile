@@ -1,0 +1,1 @@
+FROM ysicing/shell
